@@ -26,7 +26,8 @@ public class MyTestListenerNew implements ITestListener
     String fileTimestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss"));
 
     ExtentReports extentReports = new ExtentReports();
-    ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "\\Reports\\TestReport-" + fileTimestamp + ".html");
+    //ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "\\Reports\\TestReport-" + fileTimestamp + ".html");
+    ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "\\Reports\\TestReport.html");
     ExtentTest extentTest;
 
     @Override
