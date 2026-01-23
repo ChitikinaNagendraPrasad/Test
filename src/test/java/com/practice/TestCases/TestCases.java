@@ -14,7 +14,7 @@ import com.practice.Pages.HomePage;
 import com.practice.Pages.LoginPage;
 import com.practice.Pages.SignUPorLoginPage;
 import com.practice.Pages.SignUpPage;
-import com.practice.Utilities.MyTestListener;
+import com.practice.Utilities.MyTestListenerNew;
 
 public class TestCases extends Base
 {
