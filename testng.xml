@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <listeners>
-<listener class-name="com.practice.Utilities.MyTestListener"></listener>
+<listener class-name="com.practice.Utilities.MyTestListenerNew"></listener>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
