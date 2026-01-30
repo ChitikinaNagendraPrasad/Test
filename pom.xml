@@ -6,7 +6,8 @@
 	<artifactId>Test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MyTestFramework</name>
-	<description>Selenium + TestNG + WebDriverManager + ExtentReports + Allure;	CI-ready with Surefire.</description>
+	<description>Selenium + TestNG + WebDriverManager + ExtentReports + Allure;
+		CI-ready with Surefire.</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>17</java.version>
@@ -88,6 +89,21 @@
 			<artifactId>allure-testng</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- Core POI (HSSF for XLS, common APIs) -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.5.1</version>
+		</dependency>
+
+		<!-- OOXML support (XSSF for XLSX files) -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.5.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
